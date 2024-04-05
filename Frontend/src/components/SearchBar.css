@@ -1,0 +1,70 @@
+.Search-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 500px) {
+    .Search-section{
+        margin-top: 0;
+    }
+}
+
+.Search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,246,255,1) 0%, rgba(250,176,255,1) 100%);
+    width: 60%;
+    height: 75px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 100) 0px 3px 6px;
+}
+@media screen and (max-width: 500px) {
+    .Search-container{
+        width: 90%;
+        height: 50px;
+    }
+}
+
+.Search-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 50px;
+    height: 37px;
+    border-radius: 8px 0 0 8px;
+    margin-right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 100) 0px 3px 6px;
+
+}
+
+@media screen and (max-width: 500px) {
+    .Search-logo{
+        width: 40px;
+    }
+}
+
+.Search-text{
+   width: 80%;
+   height: 35px;
+   border-radius: 0 8px 8px 0;
+   border: none;
+   font-size: 1.2em;
+   padding-left: 10px;
+   outline: none;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 100) 0px 3px 6px;
+
+}
+@media screen and (max-width: 500px) {
+    .Search-text{
+        width: 75%;
+    }
+}
+
+.LogoSearch{
+    width: 20px;
+}

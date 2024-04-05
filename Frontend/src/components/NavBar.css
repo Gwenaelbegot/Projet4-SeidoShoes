@@ -1,0 +1,66 @@
+.NavBar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 100) 0px 3px 6px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 2em;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .NavList {
+        font-size: 1em;
+    }
+}
+
+.LinkNav {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.LinkNav:hover {
+    color: transparent;
+    background: linear-gradient(to right, #FAB0FF, #3DF6FF); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    transition-delay: 0s, 0.5s; 
+}
+
+.li{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-jap{
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.Seido-img{
+    width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    .Seido-img{
+        width: 100px;
+    }
+}
+
+.Panier-img{
+    width: 50px;
+}
+@media screen and (max-width: 700px) {
+    .Panier-img{
+        width: 20px;
+    }
+}

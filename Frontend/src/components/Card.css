@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 235px;
+    height: 365px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(26, 26, 26) 0%, rgb(202, 202, 202) 100%);
+    position: relative;
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 100) 0px 3px 6px;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+}
+
+.image-AIR{
+    position: absolute;
+    z-index: 0;
+}
+
+.btn-card{
+    width: 113px;
+    height: 31px;
+    border: 0;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.infos-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title-card{
+    font-size: 1.5em;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+.price-card{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Name-Shoes-div{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    padding-right: 20px;
+    top: 245px;
+    left: 155px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-family: "Montserrat";
+    width: 80px;
+}
+
+.Name-Shoes{
+    padding-right: 5px;
+}
+
+.image-Murasaki{
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: -30px;
+    transform: rotateZ(10deg);
+    z-index: 1;
+}
